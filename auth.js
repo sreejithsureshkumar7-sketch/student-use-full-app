@@ -7,7 +7,7 @@
 // 4. Verify token on backend on every request
 // 5. Never expose API keys to frontend
 
-const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+const API_BASE = process.env.REACT_APP_API_URL || 'https://student-use-full-app.onrender.com';
 const GOOGLE_CLIENT_ID = 'YOUR_GOOGLE_CLIENT_ID_HERE'; // Add to your .env
 
 // Initialize Google Sign-In
